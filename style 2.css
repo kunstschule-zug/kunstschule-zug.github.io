@@ -1,0 +1,349 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal 100% Arial, Helvetica, sans-serif;
+  background: #1B1B1B url(../images/pattern.jpg) repeat;
+  color: #000;
+}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;
+  font-size: 100% }
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 175% Arial, Helvetica, sans-serif;
+  color: #000;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;
+  padding: 5px 0 0 0;}
+
+h2
+{ font: normal 165% Arial, Helvetica, sans-serif;}
+
+h3
+{ font: normal 100% Arial, Helvetica, sans-serif;
+}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 150% Arial, Helvetica, sans-serif;
+  color: #FFF;
+  line-height: 1.5em;}
+
+h5, h6
+{ font: normal 95% Arial, Helvetica, sans-serif;
+  color: #888;
+  padding-bottom: 15px;}
+
+a, a:hover
+{ background: transparent;
+  outline: none;
+  text-decoration: none;
+  color: #3B3D40;
+}
+
+a:hover
+{ text-decoration: underline;}
+
+ul
+{ margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#main, #header, #banner, #menubar, #site_content, #footer, #header_container, #footer_container
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#main
+{ background: transparent;}
+
+#header_container
+{ height: 180px;
+  background: #3B3D40;}
+  
+#header
+{ width: 920px;
+  height: 180px;
+  background: #232426;}
+
+#banner
+{ width: 920px;
+  position: relative;
+  text-align: center; 
+  height: 50px;
+  padding: 30px 0px 0px 0px;
+  background: transparent;}
+
+#menubar
+{ width: 720px;
+  float: right;
+  height: 50px;
+  text-align: center; 
+  margin: 0 auto;
+  background: transparent;} 
+  
+#welcome
+{ width: 880px;
+  float: left;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 20px;
+  background: transparent;} 
+
+#welcome H1
+{ font: normal 190% Arial, Helvetica, sans-serif;
+  color: #FFF;}  
+  
+#welcome_slogan
+{ width: 880px;
+  float: left;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 20px;
+  background: transparent;}   
+   
+#welcome H1
+{ font: normal 250% Arial, Helvetica, sans-serif;
+  letter-spacing: -3px;
+  color: #FFF;}
+
+#welcome_slogan H1
+{ font: italic 150% Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+  color: #FFF;}  
+  
+ul#menu
+{ margin:0;}
+
+ul#menu li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;}
+
+ul#menu li a
+{ font: normal 120% Arial, Helvetica, sans-serif;
+  float: left;
+  letter-spacing: -1px;
+  height: 35px;
+  padding: 15px 20px 0 20px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: transparent;} 
+  
+ul#menu li.current a
+{ text-decoration: underline;}
+
+#site_content
+{ width: 900px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 0px 0 20px;
+  background: #FFF;} 
+
+.sidebar_container
+{ float: right;
+  width: 250px;
+  padding: 0;}
+
+.sidebar
+{ float: left;
+  width: 250px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;}
+
+.sidebar_item
+{ font: normal 100% Arial, Helvetica, sans-serif;
+  padding: 0 0 0 15px;
+  width: 201px;}
+
+.sidebar h4
+{ font-size: 125%;}
+
+.sidebar ul li, .sidebar ul li.selected
+{ list-style: none; 
+  margin: 15px 0;
+  padding: 0;}
+
+.sidebar li.selected, .sidebar li:hover
+{ color: #5D5D5D;
+  text-decoration: none;} 
+
+.content_item
+{ width: 630px;
+  margin-top: 20px;
+  margin-bottom: 20px;}
+
+#content
+{ width: 640px;
+  padding-left: 10px;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  float: left;}
+  
+.content_container
+{ width: 280px;
+  padding: 5px;
+  margin-right: 10px;
+  float: left;}
+  
+#footer
+{ font: normal 120% Arial, Helvetica, sans-serif;
+  letter-spacing: -1px;
+  height: 220px;
+  padding: 0 0 26px 0;
+  text-align: center; 
+  background: #3B3D40 url(../images/footer.png) repeat-x;
+  color: #FFF;}
+
+#footer a, #footer a:hover
+{ color: #684430;
+  text-decoration: none;
+  padding-bottom: 20px;}
+
+#footer a:hover
+{ text-decoration: underline;}
+
+#footer a, #footer a:hover
+{ color: #FFF;
+  text-decoration: none;}
+
+#footer a:hover
+{ text-decoration: underline;}
+
+#footer_container
+{ width: 920px;}
+
+.footer_container_box
+{ font: normal 80% Arial, Helvetica, sans-serif;
+  width: 270px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  float: left;
+  color: #FFF;}
+
+.footer_container_boxl
+{ font: normal 80% Arial, Helvetica, sans-serif;
+  width: 270px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px 0 10px 10px;
+  float: left;
+  color: #FFF;}
+  
+ .readmore
+{ font: normal 120% Arial, Helvetica, sans-serif;
+  height: 30px;
+  padding: 10px 0 0 23px;
+  background: transparent;}
+ 
+ .button_small
+{ font: normal 80% Arial, Helvetica, sans-serif;
+  height: 25px;
+  width: 80px;
+  padding: 4px 0 0 8px;
+  background: transparent url(../images/button_small.png) no-repeat;}
+  
+.button_small a
+{ color: #FFF;}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 280px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 2px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings input[type="checkbox"]
+{ padding: 2px 0; 
+  width: 15px; 
+  font: 100% arial; 
+  border: 0; 
+  background: #FFF; 
+  color: #47433F;
+  margin: 28px 0;}
+
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 206px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #5082BD; 
+  color: #FFF;}
+
+/* styling for the slideshow on the homepage */
+ul.slideshow {
+  list-style: none;
+  width: 880px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding-top: 20px;}
+  
+ul.slideshow li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;}
+ 
+ul.slideshow li.show {
+  z-index: 500;}
+ 
+ul img {
+  border: none;}
+ 
+#slideshow-caption {
+  width: 880px;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  z-index: 500;}
+ 
+#slideshow-caption .slideshow-caption-container {
+  padding: 20px 25px 0 25px;   
+  z-index: 1000;}
+ 
+#slideshow-caption p {
+  padding: 0;
+  font: normal 130% arial, sans-serif;
+  color: #FFF;}
+ 
