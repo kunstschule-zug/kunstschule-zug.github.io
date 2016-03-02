@@ -1,0 +1,5 @@
+# Die komplette Webseite soll von Suchmaschinen nicht durchsuchbar sein
+# Quelle für Formatierung: https://wiki.selfhtml.org/wiki/Grundlagen/Robots
+
+User-agent: *
+Disallow: /
